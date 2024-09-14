@@ -17,7 +17,7 @@ export default function Home() {
       <main className=" min-h-screen flex mt-20 bg-white">
         <Sidebar />
         <div className="w-full">
-          <p className="m-5">Skill Test</p>
+          <p className="m-5 text-black">Skill Test</p>
           <div className="flex m-5 max-[1100px]:flex-col max-[1100px]:m-1">
             <div className="flex w-3/5 flex-col max-[1100px]:w-full">
               <QuickStatistics />
