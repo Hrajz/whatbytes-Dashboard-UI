@@ -43,7 +43,7 @@ const Sidebar = () => {
             <li
               key={index}
               onClick={() => handleClick(index)} // Collapse the sidebar when clicking an item
-              className={`p-5 font-bold cursor-pointer rounded-l-lg rounded-r-full flex items-center ${
+              className={`p-5 font-bold cursor-pointer rounded-l-lg rounded-r-full flex items-center text-black ${
                 selected === index
                   ? "bg-gray-200 text-blue-500"
                   : "hover:bg-gray-100"

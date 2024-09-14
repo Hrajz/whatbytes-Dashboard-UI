@@ -40,14 +40,14 @@ const QuickStatistics = () => {
         />
       </div>
       <div className="p-4 bg-white shadow-md rounded-md m-2 cursor-pointer">
-        <h2 className="text-lg font-bold mb-4">Quick Statistics</h2>
+        <h2 className="text-lg font-bold mb-4 text-black">Quick Statistics</h2>
         <div className="flex justify-between mb-4 px-6 max-[750px]:flex-col items-start ">
           <div className="flex items-center">
             <p className="bg-slate-200 p-3 mr-2 text-2xl rounded-full max-[750px]:mb-5 ">
               🏆
             </p>
             <div>
-              <strong className="text-xl">{rank}</strong>
+              <strong className="text-xl text-black">{rank}</strong>
               <p className="text-gray-500"> Your Rank</p>
             </div>
           </div>
@@ -56,7 +56,7 @@ const QuickStatistics = () => {
               🗒️
             </p>
             <div>
-              <strong className="text-xl">{percentile}%</strong>
+              <strong className="text-xl text-black">{percentile}%</strong>
               <p className="text-gray-500">Percentile</p>
             </div>
           </div>
@@ -65,7 +65,7 @@ const QuickStatistics = () => {
               ✅
             </p>
             <div>
-              <strong className="text-xl">{correctAnswers}</strong>
+              <strong className="text-xl text-black">{correctAnswers}</strong>
               <p className="text-gray-500">Correct Answers</p>
             </div>
           </div>

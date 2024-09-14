@@ -8,7 +8,9 @@ const SyllabusWiseAnalysis = () => {
 
   return (
     <div className="p-8 bg-white shadow-md rounded-md m-2 border border-slate-200 ">
-      <h2 className="text-lg font-bold mb-4">Syllabus Wise Analysis</h2>
+      <h2 className="text-lg font-bold mb-4 text-black">
+        Syllabus Wise Analysis
+      </h2>
       <div className="p-4">
         {skills.map((skill, index) => (
           <div key={index} className="mb-8">

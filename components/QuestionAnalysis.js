@@ -80,7 +80,7 @@ const QuestionAnalysisDoughnutChart = () => {
 
   return (
     <div className="p-4 bg-white shadow-md rounded-md flex flex-col m-2 border border-slate-200">
-      <h3 className="text-xl font-bold mb-4">Question Analysis</h3>
+      <h3 className="text-xl font-bold mb-4 text-black">Question Analysis</h3>
       <div className="">
         <p className="text-slate-600 font-medium">
           <strong>

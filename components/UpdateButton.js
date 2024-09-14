@@ -7,7 +7,7 @@ const UpdateButton = ({ onClick }) => {
         <img className="w-16 mr-5" src="/images.png" alt="LOGO" />
       </div>
       <div className="mr-5 text-md flex items-center">
-        <strong className="p-2">Hyper Text Markup Language</strong>
+        <strong className="p-2 text-black">Hyper Text Markup Language</strong>
         <p className="text-gray-500">
           Questions: 08 | Duration: 15 mins | Submitted on 5 June 2021
         </p>

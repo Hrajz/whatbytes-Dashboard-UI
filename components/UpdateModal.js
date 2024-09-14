@@ -52,7 +52,7 @@ const UpdateModal = ({
     <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50">
       <div className="bg-white p-6 rounded-lg shadow-lg w-2/5 max-[1100px]:w-11/12">
         <div className="flex justify-between p-4">
-          <h2 className="text-lg font-bold mb-4">Update Score</h2>
+          <h2 className="text-lg font-bold mb-4 text-black">Update Score</h2>
           <img className="w-12 mr-5" src="/images.png" alt="LOGO" />
         </div>
         <div className="mb-7 flex items-center justify-between max-[1100px]:flex-col">
@@ -60,7 +60,7 @@ const UpdateModal = ({
             <p className="bg-blue-900 rounded-full w-6 h-6 font-bold text-white mr-2 text-center">
               1
             </p>
-            <p>
+            <p className="text-black">
               Update your <strong>Rank</strong>
             </p>
           </div>
@@ -69,7 +69,7 @@ const UpdateModal = ({
               type="number"
               value={tempRank}
               onChange={(e) => setTempRank(e.target.value)}
-              className="p-2 rounded w-full border border-blue-700"
+              className="p-2 rounded w-full border border-blue-700 text-black"
             />
             {errors.rank && (
               <p className="text-red-500 text-xs mt-1">{errors.rank}</p>
@@ -81,7 +81,7 @@ const UpdateModal = ({
             <p className="bg-blue-900 rounded-full w-6 h-6 font-bold text-white mr-2 text-center">
               2
             </p>
-            <p>
+            <p className="text-black">
               Update your <strong>Percentile</strong>
             </p>
           </div>
@@ -90,7 +90,7 @@ const UpdateModal = ({
               type="number"
               value={tempPercentile}
               onChange={(e) => setTempPercentile(e.target.value)}
-              className="p-2 rounded w-full border border-blue-700"
+              className="p-2 rounded w-full border border-blue-700 text-black"
             />
             {errors.percentile && (
               <p className="text-red-500 text-xs mt-1">{errors.percentile}</p>
@@ -102,7 +102,7 @@ const UpdateModal = ({
             <p className="bg-blue-900 rounded-full w-6 h-6 font-bold text-white mr-2 text-center">
               3
             </p>
-            <p>
+            <p className="text-black">
               Update your <strong>Current Score</strong>
             </p>
           </div>
@@ -111,7 +111,7 @@ const UpdateModal = ({
               type="text"
               value={tempCorrectAnswers}
               onChange={(e) => setTempCorrectAnswers(e.target.value)}
-              className="p-2 rounded w-full border border-blue-700"
+              className="p-2 rounded w-full border border-blue-700 text-black"
             />
             {errors.correctAnswers && (
               <p className="text-red-500 text-xs mt-1">

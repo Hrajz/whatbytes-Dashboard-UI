@@ -123,7 +123,7 @@ const ComparisonGraph = ({ percentile }) => {
 
   return (
     <div className=" bg-white shadow-md rounded-md m-2 p-4 border border-slate-200 ">
-      <h2 className="text-lg font-bold mb-4">Comparison Graph</h2>
+      <h2 className="text-lg font-bold mb-4 text-black">Comparison Graph</h2>
       <div className="mb-4 p-3">
         <p className="text-l font-medium text-slate-600">
           <strong>You scored {percentile}% percentile</strong> which is{" "}

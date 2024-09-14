@@ -14,7 +14,7 @@ export default function Home() {
 
       <Header />
 
-      <main className=" min-h-screen flex mt-20">
+      <main className=" min-h-screen flex mt-20 bg-white">
         <Sidebar />
         <div className="w-full">
           <p className="m-5">Skill Test</p>
